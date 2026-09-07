@@ -6,7 +6,7 @@ A lightweight Python script that allows you to **restart** or **shut down** your
 
 ## Features
 
-- 🔐 **Secret word activation** – type `anzisha` to restart or `zima` to shut down.
+- 🔐 **Command activation** – type `restart` or `1' to restart or `shutdown` or `2` to shut down.
 - ⏱️ **Configurable delay** – choose between **minutes** (`d`) or **seconds** (`s`) and enter any positive number.
 - 🖥️ **Cross‑platform** – works on **Windows**, **Linux**, and **macOS**.
 - ⚡ **Force‑close applications** on Windows (uses `/f` flag to suppress “shutdown anyway” dialogs).
