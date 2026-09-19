@@ -1,3 +1,15 @@
+
+'''
+The calculator program is functionally able to perform:
+Addition
+Subtraction
+Multiplication
+Division
+Modulus
+Exponents
+Roots
+'''
+
 import math
 
 def add(a, b):
