@@ -17,10 +17,10 @@ def attendance():
                 students.append(data)
                 print("\nNew student added successfully.")
 
-                more = input("\nDo you want to add another student? (y/n): ").lower()
-                if more == 'y':
+                choice = input("\nDo you want to add another student? (y/n): ").lower()
+                if choice == 'y':
                     continue
-                elif more == 'n':
+                elif choice == 'n':
                     break   
                 else:
                     print("\nInvalid input. Please enter 'y' or 'n'.")
