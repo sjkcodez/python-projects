@@ -47,8 +47,8 @@ def roots(a, b):
 # Main program
 def calculator():
     while True:
-        print("\nWelcome to Calculator")
-        print("Choose one operation:")
+        print("\n\nTHE CALCULATOR PROGRAM")
+        print("\nChoose one operation:")
         print("1. Add")
         print("2. Subtract")
         print("3. Multiply")
@@ -57,7 +57,7 @@ def calculator():
         print("6. power")
         print("7. roots")
         print("e. Exit")
-
+        print("")
         choice = input("Select your choice: ")
 
         if choice == 'e':
@@ -87,7 +87,7 @@ def calculator():
                 print( power(num1, num2))
             elif choice == '7':
                 print( roots(num1, num2))
-        else:
-            print("Error: Invalid choice. Please try again.")
+            else:
+            	print("Error: Invalid choice. Please try again.")
 
 calculator()
